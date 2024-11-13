@@ -43,9 +43,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Session id එක දාන්න " " ඕව මැදට creds.json දානව නම් ඕව වෙනස් කරන්න එපා...✓💚
+SESSION_ID: process.env.SESSION_ID || "Manu-MD&nFlxSJZR#ZGadA23ue1QHvSjD6_PCwpHh8mNKZXfGkW00s9RRzHk", // Session id එක දාන්න " " ඕව මැදට creds.json දානව නම් ඕව වෙනස් කරන්න එපා...✓💚
 ALIVE_IMG : process.env.ALIVE_IMG || "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
-ALIVE_MSG : process.env.ALIVE_MSG || "Put your alive messege",
+ALIVE_MSG : process.env.ALIVE_MSG || "${pushname} 👋*Hey There Online Now..🌝💖*",
 MENU_IMG : process.env.MENU_IMG || "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
 MODE : process.env.MODE || "public", // ඔයාට විතරක් වැඩ කරන්න් ඕනි නම් "private" දාන්න... හැමෝටම වැඩ කරන්න නම් "public" , ගෲප් වලට විතරක් ඕනි නම් "groups" දාන්න...✓💚 
 ANTI_PHOTO: process.env.ANTI_PHOTO || "true",  // පොටෝ දැම්මාම ඩිලීට් වෙන්න ඕනි නම් "true" තියන්න, එපා නම් "false" දාන්න...✓💚
@@ -64,9 +64,9 @@ OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
 ALWAYS_ONLINE : process.env.ALWAYS_ONLINE || "true", // හැම වෙලේම ඔන්ලයි ඉන්න ඕනි නම් "true" තියන්න, එපා නම් "false" දාන්න...✓💚
 AUTO_TYPING : process.env.AUTO_TYPING || "false",
 AUTO_RECORDING : process.env.AUTO_RECORDING || "false", //ඔටෝ රෙකෝඩින් පෙන්නන්න ඕනි නම් "true" තියන්න, එපා නම් "false" දාන්න...✓💚
-OWNER_NUMBER : process.env.OWNER_NUMBER || "94742274855", // ඔයාගෙ නම්බරේ ඔතනට දාගන්න මුලට 94 තියෙන්න ඕනි 0 දාන්න එපා !
+OWNER_NUMBER : process.env.OWNER_NUMBER || "94729120202", // ඔයාගෙ නම්බරේ ඔතනට දාගන්න මුලට 94 තියෙන්න ඕනි 0 දාන්න එපා !
 DELCHAT : process.env.DELCHAT || "pm",
-FOOT : process.env.FOOT || "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗-𝗩❼💗",
+FOOT : process.env.FOOT || "🧚‍♀️Nazeem Bro💗",
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1500': process.env.MAX_SIZE,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 };
